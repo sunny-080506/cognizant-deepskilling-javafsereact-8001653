@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=TaskLinkedList
+comment1.params=taskId\ taskName\ status
+comment1.target=Task(int,\ java.lang.String,\ java.lang.String)
+comment2.params=taskId\ taskName\ status
+comment2.target=void\ addTask(int,\ java.lang.String,\ java.lang.String)
+comment3.params=taskId
+comment3.target=Task\ searchTask(int)
+comment4.params=taskId
+comment4.target=boolean\ deleteTask(int)
+comment5.params=
+comment5.target=void\ traverseTasks()
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7

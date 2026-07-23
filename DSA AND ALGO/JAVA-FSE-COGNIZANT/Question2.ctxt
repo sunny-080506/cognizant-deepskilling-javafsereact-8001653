@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Question2
+comment1.params=productId\ productName\ category
+comment1.target=Product(int,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment3.params=products\ name
+comment3.target=Product\ linearSearch(Product[],\ java.lang.String)
+comment4.params=products\ name
+comment4.target=Product\ binarySearch(Product[],\ java.lang.String)
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6

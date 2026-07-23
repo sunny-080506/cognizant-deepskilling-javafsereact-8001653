@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Inventory
+comment1.params=productId\ productName\ quantity\ price
+comment1.target=Product(int,\ java.lang.String,\ int,\ double)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment3.params=p
+comment3.target=void\ addProduct(Product)
+comment4.params=id\ quantity\ price
+comment4.target=void\ updateProduct(int,\ int,\ double)
+comment5.params=id
+comment5.target=void\ deleteProduct(int)
+comment6.params=
+comment6.target=void\ displayProducts()
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8
