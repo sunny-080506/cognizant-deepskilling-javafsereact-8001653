@@ -1,0 +1,1 @@
+public class EmailNotifier implements Notifier{public void send(String m){System.out.println("Email:"+m);}}

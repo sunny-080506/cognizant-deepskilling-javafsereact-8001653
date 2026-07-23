@@ -1,0 +1,1 @@
+public class Main{public static void main(String[] a){Light l=new Light();RemoteControl r=new RemoteControl();r.setCommand(new LightOnCommand(l));r.press();}}

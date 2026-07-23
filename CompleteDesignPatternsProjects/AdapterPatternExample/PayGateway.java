@@ -1,0 +1,1 @@
+public class PayGateway{public void pay(double a){System.out.println("Gateway paid "+a);}}
