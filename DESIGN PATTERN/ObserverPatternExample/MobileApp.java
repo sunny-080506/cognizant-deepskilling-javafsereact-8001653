@@ -1,0 +1,1 @@
+public class MobileApp implements Observer{public void update(double p){System.out.println("Mobile price "+p);}}

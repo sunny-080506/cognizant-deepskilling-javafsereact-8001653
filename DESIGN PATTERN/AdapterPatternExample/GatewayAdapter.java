@@ -1,0 +1,1 @@
+public class GatewayAdapter implements PaymentProcessor{private PayGateway g=new PayGateway();public void processPayment(double amount){g.pay(amount);}}

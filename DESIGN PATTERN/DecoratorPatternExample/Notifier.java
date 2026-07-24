@@ -1,0 +1,1 @@
+public interface Notifier{void send(String m);}
