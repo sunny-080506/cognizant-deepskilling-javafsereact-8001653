@@ -1,0 +1,1 @@
+package com.example; public class FileService{FileReader r; FileWriter w; public FileService(FileReader r,FileWriter w){this.r=r;this.w=w;} public String processFile(){String s=r.read(); w.write(s); return "Processed "+s;}}

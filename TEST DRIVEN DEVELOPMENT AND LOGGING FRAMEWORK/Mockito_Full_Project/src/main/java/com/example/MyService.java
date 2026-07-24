@@ -1,0 +1,1 @@
+package com.example; public class MyService{ private ExternalApi api; public MyService(ExternalApi a){api=a;} public String fetchData(){return api.getData();} public void notifyApi(String m){api.send(m);} }

@@ -1,0 +1,6 @@
+package com.example; import org.junit.jupiter.api.*; import static org.junit.jupiter.api.Assertions.*; import static org.mockito.Mockito.*; class AdvancedMockitoTests{
+@Test void repo(){Repository r=mock(Repository.class); when(r.getData()).thenReturn("Mock Data"); assertEquals("Processed Mock Data",new Service(r).processData());}
+@Test void api(){RestClient c=mock(RestClient.class); when(c.getResponse()).thenReturn("Mock Response"); assertEquals("Fetched Mock Response",new ApiService(c).fetchData());}
+@Test void file(){FileReader fr=mock(FileReader.class); FileWriter fw=mock(FileWriter.class); when(fr.read()).thenReturn("Mock File Content"); assertEquals("Processed Mock File Content",new FileService(fr,fw).processFile()); verify(fw).write("Mock File Content");}
+@Test void net(){NetworkClient n=mock(NetworkClient.class); when(n.connect()).thenReturn("Mock Connection"); assertEquals("Connected to Mock Connection",new NetworkService(n).connectToServer());}
+@Test void multi(){Repository r=mock(Repository.class); when(r.getData()).thenReturn("First Mock Data","Second Mock Data"); Service s=new Service(r); assertEquals("Processed First Mock Data",s.processData()); assertEquals("Processed Second Mock Data",s.processData());}}

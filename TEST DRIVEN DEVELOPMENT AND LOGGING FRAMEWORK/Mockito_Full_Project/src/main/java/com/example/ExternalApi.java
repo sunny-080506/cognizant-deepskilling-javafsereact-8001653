@@ -1,0 +1,1 @@
+package com.example; public interface ExternalApi{ String getData(); void send(String m);}

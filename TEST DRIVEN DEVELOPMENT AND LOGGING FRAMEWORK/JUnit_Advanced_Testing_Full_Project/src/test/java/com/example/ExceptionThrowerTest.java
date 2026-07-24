@@ -1,0 +1,1 @@
+package com.example; import org.junit.jupiter.api.*; import static org.junit.jupiter.api.Assertions.*; class ExceptionThrowerTest{@Test void testException(){assertThrows(RuntimeException.class,()->new ExceptionThrower().throwException());}}

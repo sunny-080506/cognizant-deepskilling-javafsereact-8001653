@@ -1,0 +1,1 @@
+package com.example; public class NetworkService{NetworkClient c; public NetworkService(NetworkClient c){this.c=c;} public String connectToServer(){return "Connected to "+c.connect();}}

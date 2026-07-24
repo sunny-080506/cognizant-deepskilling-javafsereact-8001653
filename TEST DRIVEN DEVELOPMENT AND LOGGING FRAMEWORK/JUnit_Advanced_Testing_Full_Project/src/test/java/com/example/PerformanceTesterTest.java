@@ -1,0 +1,1 @@
+package com.example; import org.junit.jupiter.api.*; import static org.junit.jupiter.api.Assertions.*; class PerformanceTesterTest{@Test void testTimeout(){assertTimeout(java.time.Duration.ofSeconds(1),()->new PerformanceTester().performTask());}}

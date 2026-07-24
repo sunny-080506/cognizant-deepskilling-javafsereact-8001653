@@ -1,0 +1,1 @@
+package com.example; import org.junit.jupiter.api.*; @TestMethodOrder(MethodOrderer.OrderAnnotation.class) class OrderedTests{@Test @Order(1) void first(){} @Test @Order(2) void second(){}}

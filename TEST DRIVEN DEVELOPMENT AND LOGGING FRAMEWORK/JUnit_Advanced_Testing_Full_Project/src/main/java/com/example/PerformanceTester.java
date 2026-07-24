@@ -1,0 +1,1 @@
+package com.example; public class PerformanceTester{ public void performTask(){ for(int i=0;i<100000;i++);}}

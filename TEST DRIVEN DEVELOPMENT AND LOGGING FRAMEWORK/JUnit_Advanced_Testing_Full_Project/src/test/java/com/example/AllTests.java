@@ -1,0 +1,1 @@
+package com.example; import org.junit.platform.suite.api.*; @Suite @SelectClasses({EvenCheckerTest.class,ExceptionThrowerTest.class,PerformanceTesterTest.class}) class AllTests{}

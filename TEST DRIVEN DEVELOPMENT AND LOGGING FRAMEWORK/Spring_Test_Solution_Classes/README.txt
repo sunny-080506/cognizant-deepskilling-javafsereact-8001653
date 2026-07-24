@@ -1,0 +1,1 @@
+Solution class placeholders for all 9 exercises.

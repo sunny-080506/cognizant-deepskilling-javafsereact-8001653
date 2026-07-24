@@ -1,0 +1,1 @@
+package com.example; import org.junit.jupiter.params.*; import org.junit.jupiter.params.provider.*; import static org.junit.jupiter.api.Assertions.*; class EvenCheckerTest{@ParameterizedTest @ValueSource(ints={2,4,6,8}) void testEven(int n){assertTrue(new EvenChecker().isEven(n));}}

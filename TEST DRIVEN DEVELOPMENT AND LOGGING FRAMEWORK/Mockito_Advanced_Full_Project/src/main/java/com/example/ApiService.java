@@ -1,0 +1,1 @@
+package com.example; public class ApiService{RestClient c; public ApiService(RestClient c){this.c=c;} public String fetchData(){return "Fetched "+c.getResponse();}}

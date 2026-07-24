@@ -1,0 +1,1 @@
+package com.example; public class Service{Repository r; public Service(Repository r){this.r=r;} public String processData(){return "Processed "+r.getData();}}
