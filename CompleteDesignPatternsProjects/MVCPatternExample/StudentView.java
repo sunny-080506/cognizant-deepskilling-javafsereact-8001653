@@ -1,1 +1,0 @@
-public class StudentView{public void displayStudentDetails(Student s){System.out.println(s.getName());}}

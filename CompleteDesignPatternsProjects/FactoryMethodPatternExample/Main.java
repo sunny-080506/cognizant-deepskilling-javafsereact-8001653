@@ -1,1 +1,0 @@
-public class Main{public static void main(String[] a){Document d=new WordFactory().createDocument();d.open();}}

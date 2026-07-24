@@ -1,1 +1,0 @@
-public class Main{public static void main(String[] a){new CustomerService(new CustomerRepositoryImpl()).show(1);}}

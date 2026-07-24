@@ -1,1 +1,0 @@
-public class Main{public static void main(String[] a){Computer c=new Computer.Builder().cpu("i7").ram("16GB").storage("512GB").build();System.out.println(c);}}

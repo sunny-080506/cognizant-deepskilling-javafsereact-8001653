@@ -1,1 +1,0 @@
-public class Main{public static void main(String[] a){PaymentProcessor p=new GatewayAdapter();p.processPayment(500);}}

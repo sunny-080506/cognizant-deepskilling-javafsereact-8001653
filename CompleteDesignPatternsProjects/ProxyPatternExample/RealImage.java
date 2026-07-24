@@ -1,1 +1,0 @@
-public class RealImage implements Image{public RealImage(){System.out.println("Loading image");}public void display(){System.out.println("Displaying image");}}

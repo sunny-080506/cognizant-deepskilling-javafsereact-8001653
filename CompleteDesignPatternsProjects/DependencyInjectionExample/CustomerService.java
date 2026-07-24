@@ -1,1 +1,0 @@
-public class CustomerService{private CustomerRepository r;public CustomerService(CustomerRepository r){this.r=r;}public void show(int id){System.out.println(r.findCustomerById(id));}}

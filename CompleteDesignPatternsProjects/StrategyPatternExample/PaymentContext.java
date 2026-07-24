@@ -1,1 +1,0 @@
-public class PaymentContext{private PaymentStrategy s;public PaymentContext(PaymentStrategy s){this.s=s;}public void execute(int a){s.pay(a);}}
